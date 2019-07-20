@@ -1,0 +1,34 @@
+{
+  "name": "hotpot",
+  "version": "1.0.0",
+  "description": "A list to track HotPot ingredients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crystallow1168/HotPot.git"
+  },
+  "author": "Crystal Low",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/crystallow1168/HotPot/issues"
+  },
+  "homepage": "https://github.com/crystallow1168/HotPot#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
