@@ -19,8 +19,10 @@ class App extends Component {
     const category = Object.keys(data);
 
     return (
-      <div className="row">
-        {(Object.values(data).map((ingredients, idx) => <Ingredients ingredients={ingredients} category={category[idx]} key={idx}/>))}
+      <div>
+        <div className="row">
+          {(Object.values(data).map((ingredients, idx) => <Ingredients ingredients={ingredients} category={category[idx]} key={idx}/>))}
+        </div>
       </div>
     )
   }
